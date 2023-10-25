@@ -1,0 +1,305 @@
+/*
+* Estilo Seções
+*/
+header {
+  display: block;
+  margin-bottom: 1px;
+}
+nav {
+  display: block;
+  width: 20%;
+  float: left;
+}
+section {
+  display: block;
+  width: 70%;
+  float: right;
+}
+
+/*
+ * Estilo Geral
+ */
+body {
+  color: #402020;
+  font-size: 16px;
+  background-color: #eebb88;
+  font-family: stoke, Lucida Bright, liberation;
+}
+a:link {
+  color: #603030;
+  text-decoration: none;
+}
+a:visited {
+  color: #603030;
+  text-decoration: none;
+}
+ol {
+  line-height: 200%;
+}
+ul {
+  line-height: 200%;
+}
+/*
+ * Estilo Nav
+ */
+nav ul {
+  color: #332277;
+  margin-top: 40px;
+  line-height: 230%;
+  list-style-type: circle;
+}
+/*
+ * Estilo Header
+ */
+.ender {
+  float: right;
+  text-align: right;
+  font-size: 14px;
+  line-height: 140%;
+  font-family: karla, verdana, ubuntu;
+}
+img.imgLogo {
+  padding-bottom: 15px;
+  border-bottom: 3px solid #402020;
+  margin-bottom: 6px;
+}
+/*************
+ * Estilo Seção Apresentação
+ */
+div.apres {
+  text-align: center;
+  font-size: 16px;
+}
+
+/*************
+* Estilo Seção Maquinas
+*/
+.Titulo {
+  text-align: center;
+}
+.listaMaq {
+  color: #402020;
+  width: 340px;
+  border: 2px solid #402020;
+  margin: 0px auto 10px auto;
+  padding: 10px 10px 10px 50px;
+  background-color: #eeddcc;
+  list-style-type: upper-roman;
+}
+
+.listaMaq ul {
+  color: #402020;
+  list-style-type: square;
+}
+.listaMaq .preco {
+  color: #cc0000;
+}
+
+/*************
+* Estilo Seção Capsulas
+*/
+.tabCap {
+  color: #402020;
+  margin-top: 6px;
+  border-collapse: collapse;
+  background-color: #eeddcc;
+  font-size: 15px;
+  font-family: karla, verdana, ubuntu;
+}
+.tabCap th {
+  border: 2px solid #888888;
+  padding: 6px 12px 6px 12px;
+}
+.tabCap td {
+  border: 2px solid #000066;
+  padding: 6px 12px 6px 12px;
+}
+.tabCap .linTH {
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #402020;
+}
+.tabCap .colTH {
+  color: #ffffff;
+  text-align: left;
+  background-color: #804040;
+}
+
+.tabCap .preco {
+  color: #cc0000;
+}
+.tabCap .imgCel {
+  background-color: #ffffff;
+}
+.imgCel img {
+  width: 60px;
+  height: 60px;
+}
+/*************
+* Estilo Formulários
+*/
+
+.FormBox {
+  width: 540px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #eeddcc;
+  border: 3px solid #000055;
+  font-size: 16px;
+  font-family: karla, verdana, ubuntu;
+}
+/* Fieldsets */
+.FSLinInteira {
+  width: 510px;
+  text-align: left;
+}
+.fsEsq {
+  float: left;
+  display: inline;
+  margin: 0px 0px 0px 0px;
+}
+.fsDir {
+  float: right;
+  display: inline;
+  margin: 0px 0px 0px 0px;
+}
+/* Elementos Básicos */
+.LinhaForm {
+  margin: 0px;
+  height: 30px;
+  padding: 6px 3px 0px 3px;
+}
+.ColEsq {
+  width: 180px;
+  float: left;
+  display: block;
+}
+.ColDir {
+  width: 130px;
+  float: right;
+  display: block;
+}
+
+.LabBox {
+  width: 130px;
+  float: left;
+  display: block;
+}
+/* Elementos Específicos */
+.ColEsqSelProd {
+  width: 360px;
+  float: left;
+  display: block;
+}
+.LabBoxSel {
+  width: 90px;
+  float: left;
+  display: block;
+}
+.LabBoxQtd {
+  width: 40px;
+  float: left;
+  display: block;
+}
+.ColEsqValUnit {
+  width: 250px;
+  float: left;
+  display: block;
+}
+.InpBoxMedLeft {
+  width: 80px;
+  float: left;
+  display: block;
+}
+.InpBoxMed {
+  width: 80px;
+}
+.numDD {
+  width: 35px;
+}
+.numQD {
+  width: 50px;
+}
+.botoes {
+  text-align: right;
+  margin: 20px 10px 0px 10px;
+}
+/* Identificadores */
+#selMaquina {
+  width: 75%;
+}
+#selCapsula {
+  width: 75%;
+}
+#boxPedidos {
+  height: 100px;
+}
+#lisPedArea {
+  height: 90%;
+  width: 100%;
+}
+/*************
+* Estilo Formulário que Completa a Compra
+*/
+.divLinha {
+  width: 500px;
+  margin: 0px;
+  padding: 6px 3px 0px 3px;
+}
+.colPri {
+  float: left;
+  width: 90px;
+  display: block;
+}
+
+.colLabCrd {
+  width: 270px;
+  height: 45px;
+  float: left;
+  text-align: left;
+}
+.listaCompras {
+  float: right;
+  width: 190px;
+  height: 200px;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.colValTot {
+  float: left;
+  width: 220px;
+  display: block;
+  text-align: left;
+}
+.InpBoxGnd {
+  width: 380px;
+}
+.inpNCC {
+  width: 130px;
+}
+.inpTelef {
+  width: 90px;
+}
+.inpEnder {
+  width: 180px;
+  height: 60px;
+}
+
+/* Estilos tabela Capsulas */
+
+#celDes {
+  text-align: center;
+}
+
+#qtdprcDes {
+  color: #402020;
+  font-weight: bold;
+}
+
+/* item tipo da tabela Capsulas */
+.menuTab {
+  height: 52px;
+}
